@@ -63,7 +63,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['localhost', '8000-linnea87-drfapi-wgm7v5lgpsh.ws.codeinstitute-ide.net', 'lesson-drf-api-d1c8561611f2.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost', '8000-linnea87-drfapi-mq9ezxvunz6.ws.codeinstitute-ide.net', 'lesson-drf-api-d1c8561611f2.herokuapp.com/']
 
 
 # Application definition
