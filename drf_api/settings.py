@@ -62,7 +62,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['localhost', '8000-linnea87-drfapi-wgm7v5lgpsh.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['localhost', '8000-linnea87-drfapi-wgm7v5lgpsh.ws.codeinstitute-ide.net', 'django-api-lesson.herokuapp.com']
 
 
 # Application definition
@@ -152,7 +152,7 @@ else:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
     }
-    print('connected')
+  
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
