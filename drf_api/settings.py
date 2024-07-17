@@ -62,7 +62,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['localhost', '8000-linnea87-drfapi-wgm7v5lgpsh.ws.codeinstitute-ide.net', 'django-api-lesson.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '8000-linnea87-drfapi-wgm7v5lgpsh.ws.codeinstitute-ide.net', 'django-api-lesson-fa25ec7b35dd.heroku.com']
 
 
 # Application definition
